@@ -1,4 +1,4 @@
--- 
+-- TOP OF FILE
 with Ada.Text_IO;
 with Messages;
 
