@@ -1,3 +1,4 @@
+-- TOP OF FILE
 project Hello is
    for Object_Dir use "obj";
    for Main use ("hello.adb");
@@ -8,10 +9,25 @@ project Hello is
 
    package Pretty_Printer is
       
-      for Default_Switches ("ada") use
-        (
-         "--source-line-breaks"
+       for Default_Switches ("ada") use
+         (
+          "--name-mixed-case",
+          "--no-end-id"
         );
+
+      -- for Default_Switches ("ada") use
+      --   (
+      --    "--alignment",
+
+      --    "--name-mixed-case",
+      --    "--no-end-id",
+      --    "--source-line-breaks",
+
+      --    "--max-line-length=200",
+
+      --    "--eol=dos"
+      --   );
+
 
    end Pretty_Printer;
 
