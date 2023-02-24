@@ -1,6 +1,8 @@
 with Ada.Text_Io;
 package body messages is
 
+   use type Ada.Text_Io.Count;
+
    procedure You_Say_Hello
    is
    begin
