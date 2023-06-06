@@ -1,4 +1,3 @@
-# Code Samples
+# Ada Code Samples
 
-Open this folder in VS Code and press `F5` to launch build
-and start a debug session.
+Mainly to check Ada Language Server formatting
