@@ -6,10 +6,12 @@ package body Messages is
 
    First_Hello : Boolean := False;
 
+   procedure Hello_Hello is null;
+
    procedure You_Say_Hello is
    begin
       -- P3 : This comment makes the case instruction is right shifted on format document / selection
-         case First_Hello is
+      case First_Hello is
          when True =>Ada.Text_IO.Put_Line ("Hello");
          when False =>Ada.Text_IO.Put_Line ("Hello again");
       end case;
