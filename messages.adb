@@ -1,14 +1,13 @@
 -- TOP OF FILE
 with Ada.Text_Io;
 package body Messages is
-
    use type Ada.Text_Io.Count;
 
    First_Hello : Boolean := False;
 
-   procedure Hello_Hello is null;
-
    -- #2 : 'Format selection' on this comment line deleted 2 trailing chars
+   
+   procedure Hello_Hello is null;
 
    procedure You_Say_Hello is
    begin
