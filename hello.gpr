@@ -12,22 +12,9 @@ project Hello is
        for Default_Switches ("ada") use
          (
           "--name-mixed-case",
-          "--no-end-id"
+          "--no-end-id",
+          "--source-line-breaks"
         );
-
-      -- for Default_Switches ("ada") use
-      --   (
-      --    "--alignment",
-
-      --    "--name-mixed-case",
-      --    "--no-end-id",
-      --    "--source-line-breaks",
-
-      --    "--max-line-length=200",
-
-      --    "--eol=dos"
-      --   );
-
 
    end Pretty_Printer;
 
