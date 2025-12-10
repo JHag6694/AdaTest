@@ -16,7 +16,8 @@ project Hello is
         (
          "--name-mixed-case",
          "--no-end-id",
-         "--source-line-breaks"
+         "--source-line-breaks",
+         "--indentation=4"
         );
 
    end Pretty_Printer;
