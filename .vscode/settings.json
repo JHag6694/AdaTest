@@ -1,24 +1,2 @@
 {
-    "ada.projectFile": "hello.gpr",
-    "ada.scenarioVariables": {
-    
-    },
-    "terminal.integrated.profiles.windows": {
-
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell"
-        },
-        "Command Prompt": {
-            "path": [
-                "${env:windir}\\Sysnative\\cmd.exe",
-                "${env:windir}\\System32\\cmd.exe"
-            ],
-            "args": ["/C", "set PATH=C:\\msys64\\mingw64\\bin;%PATH%"],
-            "icon": "terminal-cmd"
-        },
-        "Git Bash": {
-            "source": "Git Bash"
-        }
-    }
 }

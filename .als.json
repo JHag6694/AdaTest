@@ -1,4 +1,8 @@
 {
-    "onTypeFormatting": {"indentOnly": true},
+    "projectFile": "hello.gpr",
+    "scenarioVariables": {},
+    "onTypeFormatting": {
+        "indentOnly": true
+    },
     "useGnatformat": false
 }
